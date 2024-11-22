@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bit Academy - Dagdoelen</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                <strong>DAGDOEL APP</strong>
+            </a>
+        </div>
+    </nav>
+
+
+    <section class="section">
+        <div class="container">
+            <h1 class="title has-text-centered">Dagdoelen van Vandaag</h1>
+
+
+            <div class="box">
+                <article class="media">
+                    <div class="media-content">
+                        <p>
+                            <strong>Doel:</strong> Begrijpen van Flexbox en Grids.<br>
+                            <strong>Tijd:</strong> 09:00 - 11:00
+                        </p>
+                    </div>
+                </article>
+                <article class="media">
+                    <div class="media-content">
+                        <p>
+                            <strong>Doel:</strong> Eindproject starten.<br>
+                            <strong>Tijd:</strong> 11:30 - 14:00
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section">
+        <div class="container">
+            <h2 class="title has-text-centered">Vul jouw Dagdoel in</h2>
+            <form>
+                <div class="field">
+                    <label class="label">Naam</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Voer je naam in..." required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Dagdoel</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Schrijf hier jouw doel..." required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Tijd</label>
+                    <div class="control">
+                        <input class="input" type="time" required>
+                    </div>
+                </div>
+                <div class="control">
+                    <button type="submit" class="button is-danger is-fullwidth">Verzenden</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <section class="section">
+        <div class="container">
+            <h2 class="title has-text-centered">Coach Goedkeuring</h2>
+
+            <div class="box">
+                <article class="media">
+                    <div class="media-content">
+                        <p>
+                            <strong>Student:</strong> John Doe<br>
+                            <strong>Doel:</strong> Begrijpen van Flexbox.<br>
+                            <strong>Tijd:</strong> 09:00 - 11:00
+                        </p>
+                    </div>
+                    <div class="media-right">
+                        <button class="button is-success">Goedkeuren</button>
+                        <button class="button is-danger">Afkeuren</button>
+                    </div>
+                </article>
+            </div>
+
+            <div class="box">
+                <article class="media">
+                    <div class="media-content">
+                        <p>
+                            <strong>Student:</strong> Jane Smith<br>
+                            <strong>Doel:</strong> Oefenen met API's.<br>
+                            <strong>Tijd:</strong> 11:30 - 14:00
+                        </p>
+                    </div>
+                    <div class="media-right">
+                        <button class="button is-success">Goedkeuren</button>
+                        <button class="button is-danger">Afkeuren</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
